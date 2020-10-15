@@ -18,10 +18,6 @@ function mostraDefinição(palavra, def){
     defSpan.textContent = def;
 }
 
-function onClickEdit(){
-    const formEdidt = document.querySelector('#form-edicao');
-    formEdidt.classList.remove("hidden");
-}
 
 const botaoObj = document.querySelector("#botao-busca");
 botaoObj.addEventListener("click", onClickSearch);
@@ -32,6 +28,3 @@ formSearch.addEventListener('submit', event => {
     onClickSearch();
 });
 
-
-const botaoEdit = document.querySelector("#botao-editar");
-botaoEdit.addEventListener("click", onClickEdit);
