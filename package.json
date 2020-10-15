@@ -1,0 +1,23 @@
+{
+  "name": "aula-15-out-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d build",
+    "start": "nodemon --exec npx babel-node servidor/app.js"
+  },
+  "author": "Mateus Grellert",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.0",
+    "@babel/core": "^7.12.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.12.0",
+    "nodemon": "^2.0.5"
+  }
+}
